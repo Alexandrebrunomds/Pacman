@@ -139,3 +139,6 @@ class Player:
             if vec(self.grid_pos + self.direction) == wall:
                 return False
         return True
+    
+    
+    
